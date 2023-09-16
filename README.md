@@ -22,6 +22,6 @@ Jika kamu tertarik untuk berkontribusi pada MathQuest, kami sangat menghargai ko
 
 ## Lisensi
 
-Aplikasi ini dilisensikan di bawah syarat dan ketentuan yang berlaku. Silakan merujuk pada file `LICENSE` untuk informasi lebih lanjut.
+Aplikasi ini dilisensikan di bawah syarat dan ketentuan yang berlaku. Silakan merujuk pada file [file LICENSE](LICENSE) untuk informasi lebih lanjut.
 
 Terima kasih telah mendukung pengembangan MathQuest!
