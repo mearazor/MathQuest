@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="20dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#229F2D"
+            android:textStyle="bold"
+            android:text="Soal Level 3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Masa kehamilan rata-rata (dalam hari) dari sapi, kuda, dan kerbau apabila dijumlahkan adalah 975 hari. Masa kehamilan kerbau lebih lama 85 hari dari masa kehamilan sapi, dua kali masa kehamilan sapi ditambah masa kehamilan kerbau sama dengan 3 kali masa kehamilan kuda dikurang 65 hari. Berapa hari masa kehamilan masing-masing hewan?"
+            android:gravity="center"
+            android:id="@+id/tvMassage"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnYes"
+                android:textColor="@color/white"
+                android:backgroundTint="#229F2D"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:text="Lanjutkan"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnNo"
+                android:textColor="#229F2D"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:text="Keluar"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

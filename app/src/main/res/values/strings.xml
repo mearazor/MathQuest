@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MathQuest</string>
+    <string name="logomedia">Deskripsi Gambar Saya</string>
+    <string name="materi_button">Materi</string>
+    <string name="profil_button">Profil</string>
+    <string name="evaluasi_button">Evaluasi</string>
+    <string name="kikd_button">kikd</string>
+    <string name="suara_button">Suara</string>
+    <string name="petunjuk_button">Petunjuk</string>
+    <string name="home_button">Home</string>
+    <string name="gambar_deskripsi">Deskripsi Gambar</string>
+    <string name="description_btki">btki</string>
+    <string name="description_btkd">btkd</string>
+    <string name="description_btsubmateri1">sub materi 1</string>
+    <string name="description_btsubmateri2">sub materi 2</string>
+    <string name="description_btsubmateri3">sub materi 3</string>
+    <string name="description_btlevel1">level 1</string>
+    <string name="description_btlevel2">level 2</string>
+    <string name="description_btlevel3">level 3</string>
+    <string name="description_btpertanyaan">pertanyaan</string>
+    <string name="tvMassage">Massage</string>
+
+</resources>

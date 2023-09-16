@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpolos"
+    tools:context=".Activitysubmateri1">
+
+    <ImageView
+        android:id="@+id/logomediakecil"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/logomediakecil"
+        android:contentDescription="@string/gambar_deskripsi" />
+
+    <ImageView
+        android:id="@+id/logomateri"
+        android:layout_width="250dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/logounimus"
+        app:layout_constraintStart_toEndOf="@+id/logomediakecil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/hidenobjek"
+        android:contentDescription="@string/gambar_deskripsi" />
+
+    <ImageView
+        android:id="@+id/logounimus"
+        android:layout_width="58dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/logounimus"
+        android:contentDescription="@string/gambar_deskripsi" />
+
+    <ImageView
+        android:id="@+id/jdsubm1"
+        android:layout_width="226dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="370dp"
+        android:contentDescription="@string/gambar_deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433"
+        app:srcCompat="@drawable/subm1" />
+
+    <ImageView
+        android:id="@+id/textsubm1"
+        android:layout_width="319dp"
+        android:layout_height="451dp"
+        android:layout_marginTop="130dp"
+        android:contentDescription="@string/gambar_deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433"
+        app:srcCompat="@drawable/textsubm1" />
+
+    <Button
+        android:id="@+id/bthome"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/home_button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

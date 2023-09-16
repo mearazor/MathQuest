@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="20dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#229F2D"
+            android:textStyle="bold"
+            android:text="Soal Level 1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Amar, Boy, Cita, dan Dini pergi ke koperasi sekolah untuk membeli buku tulis, pulpen, dan pensil dengan merek yang sama. Amar membeli 5 buku tulis, 3 pulpen, dan 2 pensil dengan harga Rp 31.500,00. Boy membeli 4 buku tulis, 2 pulpen, dan 5 pensil dengan harga Rp 31.000,00. Cita membeli 3 buku tulis, 2 pulpen, dan 3 pensil dengan harga Rp 30.000,00. Jika Dini membeli 1 buku tulis, 2 pulpen, dan 3 pensil, Dini membayar sebesar Rp 50.000,00. Tentukanlah banyaknya uang kembalian yang diperoleh Dini"
+            android:gravity="center"
+            android:id="@+id/tvMassage"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnYes"
+                android:textColor="@color/white"
+                android:backgroundTint="#229F2D"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:text="Lanjutkan"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnNo"
+                android:textColor="#229F2D"
+                android:textSize="14sp"
+                android:textAllCaps="false"
+                android:text="Keluar"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

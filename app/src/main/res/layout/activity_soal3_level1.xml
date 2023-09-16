@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/polospolos"
+    tools:context=".Activitysoal3level1">
+
+    <ImageView
+        android:id="@+id/logomediakecil"
+        android:layout_width="95dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/gambar_deskripsi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logomediakecil" />
+
+    <ImageView
+        android:id="@+id/pertanyaan1no3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pertanyaanlevel1no3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bthome"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/home"
+        android:contentDescription="@string/home_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/level1"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/gambar_deskripsi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/level1" />
+
+    <Button
+        android:id="@+id/mulaigame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#229F2D"
+        android:text="Mulai"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/bthome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pertanyaan1no3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

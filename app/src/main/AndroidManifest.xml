@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HiddenObjekKu"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activitycerita2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitycerita1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitygab2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitygab1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activityeli3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activityeli2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activityeli1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysub2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysub1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitywinner"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal4level3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal3level3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal2level3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal1level3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel3no4"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel3no3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel3no2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel2no3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel2no2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal3level2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal2level2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal1level2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel1no3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal3level1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal2level1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel1no2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitysoal1level1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel3"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylevel1"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activityprofil"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitymenulevel"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activityevaluasi"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitymenumateri"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" /> <!-- Daftarkan BackgroundSoundService sebagai service -->
+        <service android:name=".BackgroundSoundService" />
+
+        <activity
+            android:name=".Activitymenukurikulum"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitypetunjuk"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitymenuutama"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Activitylogin"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HiddenObjekKu">
+
+            <!-- Untuk aktivitas lain, set android:exported="false" -->
+        </activity>
+    </application>
+
+</manifest>
