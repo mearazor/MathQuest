@@ -46,12 +46,13 @@
         android:text="Waktu: 120 detik"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#2B2E43"
+        android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/gamelevel1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/papanskor" />
+        app:layout_constraintTop_toBottomOf="@+id/papanskor"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/papanskor"
